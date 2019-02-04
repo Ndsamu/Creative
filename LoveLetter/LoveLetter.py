@@ -195,6 +195,9 @@ class Game:
 	def handmaiden(self, player):
 		print("\nYou will not be affected by any other player's card until next turn.\n")
 		player.handmaiden = True
+
+	def prince(self, player):
+		
 		
 
 	# Handles invidual rounds
